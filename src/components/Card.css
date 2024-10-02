@@ -1,0 +1,61 @@
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: left;
+  position: relative;
+  font-size: 14px;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+.priority-badge,
+.feature-request {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+}
+
+.priority-badge {
+  background-color: #eaf6ff;
+  color: #007bff;
+}
+
+.feature-request {
+  background-color: #fff9e6;
+  color: #ff9800;
+}
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.want {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
